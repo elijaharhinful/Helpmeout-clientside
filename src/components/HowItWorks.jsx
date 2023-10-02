@@ -10,6 +10,7 @@ import refreshSquare from "../components/assets/images/icons/refresh-square-2.sv
 import videoRepo from "../components/assets/images/img/Video_repo.png"
 import rec from "../components/assets/images/img/rec.png";
 import recordCircle from "../components/assets/images/icons/record-circle.svg";
+import HeroImage from "../components/assets/images/img/hero-image.png"
 
 
 function HowItWorks() {
@@ -17,17 +18,15 @@ function HowItWorks() {
         <>
             <Header />
             <div className='Hero'>
-                <div className="hero__Text">
+                <div className="hero__text">
                     <h1> Show Them</h1><br></br>
                     <h1>Don't Just Tell</h1>
                     <p>Help your friends and loved ones by creating <br></br>
                         and sending videos on how to get things done on a website.</p>
                     <a className='button button--large'>Install HelpMeOut <span><img src={arrowForward} alt="" /> </span></a>
                 </div>
-                <div className="hero__images">
-                    <div><img src={elderly} alt="" /></div>
-                    <div><img src={woman} alt="" /></div>
-                    <div><img src={laptop} alt="" /></div>
+                <div className="hero__image">
+                    <img src={HeroImage} alt="" />
                 </div>
             </div>
             <div className="features">
@@ -41,21 +40,21 @@ function HowItWorks() {
                             <div className="icon"><img src={recordCircle} alt="" /></div>
                             <div className="text">
                                 <h3>Simple Screen Recording</h3>
-                                <p></p>
+                                <p>Effortless screen recording for everyone. Record with ease, no tech expertise required.</p>
                             </div>
                         </div>
                         <div className="item">
                             <div className="icon"><img src={telegramWhite} alt="" /></div>
                             <div className="text">
-                                <h3>Simple Screen Recording</h3>
-                                <p></p>
+                                <h3>Easy-to-Share-URL</h3>
+                                <p>Share your recordings instantly with a single link. No attachments, no downloads.</p>
                             </div>
                         </div>
                         <div className="item">
                             <div className="icon"><img src={refreshSquare} alt="" /></div>
                             <div className="text">
-                                <h3>Simple Screen Recording</h3>
-                                <p></p>
+                                <h3>Revisit Recordings</h3>
+                                <p>Access and review your past content effortlessly. Your recordings, always at your fingertips.</p>
                             </div>
                         </div>
 
@@ -70,17 +69,20 @@ function HowItWorks() {
                 <div className="works__body">
                     <div className="works__panel">
                         <div className="number"><h2>1</h2></div>
-                        <div className='text'></div>
-                        <div className="image"></div>
+                        <h3>Record Screen</h3>
+                        <div className='text'>Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.</div>
+                        <div className="image"><img src={rec}></img></div>
                     </div>
                     <div className="works__panel">
                         <div className="number"><h2>2</h2></div>
-                        <div className='text'></div>
-                        <div className="image"></div>
+                        <h3>Share Your Recording</h3>
+                        <div className='text'>Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.</div>
+                        <div className="image"><img src={rec}></img></div>
                     </div>
                     <div className="works__panel">
                         <div className="number"><h2>3</h2></div>
-                        <div className='text'></div>
+                        <h3>Learn Effortlessly </h3>
+                        <div className='text'>Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.</div>
                         <div className="image"> <img src={rec}></img> </div>
                     </div>
                 </div>
