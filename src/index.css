@@ -175,6 +175,10 @@ nav {
   margin: 0 100px 0 100px;
 }
 
+nav .nav__list .nav__link{
+  color: black;
+}
+
 .nav__logo {
   display: flex;
   align-items: center;
