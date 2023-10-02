@@ -3,6 +3,7 @@ import Modal from 'react-modal';
 import { motion , AnimatePresence} from 'framer-motion';
 import CloseCircleDark from './assets/images/icons/close-circle-dark.svg';
 import Kite from './assets/images/gifs/kite.gif'
+import { Link } from 'react-router-dom';
 
 const VideoModal = ({ isOpen, closeModal }) => {
     return (
@@ -23,7 +24,7 @@ const VideoModal = ({ isOpen, closeModal }) => {
                 <div className='modal__data'>
                     <p className='sent'>Your video link has been sent to <b>johnmark@gmail.com</b></p>
                     <p className='view'>Would you need to view this video later?  <br />Save to your account now!</p>
-                    <a href="#" className='button button-small save'>Save Video</a>
+                    <Link to="/video-repo" className='button button-small save'>Save Video</Link>
                     <p className='create'>Don’t have an account? <a href="#">Create account</a></p>
                 </div>
             </Modal>
